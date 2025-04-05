@@ -1,0 +1,18 @@
+# Required Python packages
+numpy
+pandas
+torch
+Pillow
+faiss-cpu
+transformers
+matplotlib
+scikit-learn
+streamlit
+
+# Notes (manual download or loading required):
+# - Flickr30k dataset: Download from https:https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset
+#   Place the dataset in the appropriate folder as expected by your code.
+# - CLIP model: Load using HuggingFace Transformers
+#   Example usage in code:
+#   from transformers import CLIPModel
+#   model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
